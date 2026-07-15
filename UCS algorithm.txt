@@ -1,0 +1,14 @@
+Start.
+Input the weighted graph, source node, and destination node.
+Create a priority queue and insert the source node with cost 0.
+Initialize an empty visited list (or dictionary) to store the minimum cost of visited nodes.
+While the priority queue is not empty:
+Remove the node with the lowest cumulative cost.
+If the current node is the destination, display the path and total cost, then stop.
+If the node has not been visited (or a lower cost is found):
+Mark it as visited with its current cost.
+For each neighboring node:
+Calculate the new cumulative cost.
+Insert the neighbor into the priority queue along with the updated cost and path.
+If the destination cannot be reached, display "No path found."
+Stop.
