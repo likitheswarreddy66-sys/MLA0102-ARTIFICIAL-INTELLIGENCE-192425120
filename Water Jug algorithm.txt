@@ -1,0 +1,17 @@
+Start.
+Input the capacities of Jug1 and Jug2, and the target quantity.
+Create an empty queue and insert the initial state (0, 0).
+Create an empty set to store visited states.
+Repeat until the queue is empty:
+Remove the front state from the queue.
+If either jug contains the target quantity, print the sequence of operations and stop.
+Generate all possible next states:
+Fill Jug1.
+Fill Jug2.
+Empty Jug1.
+Empty Jug2.
+Pour water from Jug1 to Jug2.
+Pour water from Jug2 to Jug1.
+If a generated state has not been visited, add it to the queue.
+If no solution exists, print "Solution not possible."
+Stop.
