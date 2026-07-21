@@ -1,0 +1,12 @@
+BEGIN
+Read graph
+Read heuristic values
+Read start and goal
+Insert start into priority queue
+WHILE queue not empty
+Remove node with least heuristic
+IF goal found
+Stop
+Add unvisited neighbors
+END WHILE
+END
