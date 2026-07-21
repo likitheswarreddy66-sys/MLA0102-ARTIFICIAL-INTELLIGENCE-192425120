@@ -1,0 +1,18 @@
+BEGIN
+Read graph
+Read heuristic values
+Read start node and goal node
+Create priority queue
+Insert start node
+Mark start as visited
+WHILE priority queue is not empty
+Remove node with minimum heuristic
+Print node
+IF node = goal THEN
+Stop
+FOR each neighbor
+IF neighbor not visited
+Mark visited
+Insert neighbor using heuristic value
+END WHILE
+END
