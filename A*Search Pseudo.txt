@@ -1,0 +1,18 @@
+BEGIN
+Read graph
+Read heuristic values
+Read start and goal
+Insert start into priority queue
+Set cost(start)=0
+WHILE queue not empty
+Remove node with minimum f=g+h
+IF goal found
+Print path
+Stop
+FOR each neighbor
+Calculate new cost
+IF new cost is smaller
+Update cost
+Insert neighbor
+END WHILE
+END
